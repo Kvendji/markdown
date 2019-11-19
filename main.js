@@ -17,7 +17,7 @@ function showMarkup (html) {
 }
 
 function showText (text) {
-document.body.innerHTML += <h3>${text}</h3>
+document.body.innerHTML += `<h3>${text}</h3>`
 }
 
 
