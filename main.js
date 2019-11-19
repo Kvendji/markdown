@@ -34,7 +34,7 @@ var showGaallery = function (response) {
 //   console.log(response)
 // }
 
-getData("./user2.json", showGallery)
+getData("img.json", showGallery)
 
 getData("hello.txt", showText)
 
