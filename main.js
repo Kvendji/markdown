@@ -21,7 +21,7 @@ document.body.innerHTML += `<h3>${text}</h3>`
 }
 
 
-var showGaallery = function (response) {
+var showGallery = function (response) {
   pictures = JSON.parse(response)
   pictures.forEach(
       pictures => document.body.appendChild(document.createElement('img')).src = pictures.ref 
